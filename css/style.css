@@ -2,16 +2,16 @@ body{
     margin: 0px;
 }
 main{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0;
+    padding: 0;
 }
 h1 {
     text-align: center;
 }
-.navbar ul{
+.navbar {
     list-style-type: none;
-    background-color: rgb(100, 100, 100);
-    padding: 0px;
+    background-color: rgb(83, 86, 90);
+    padding: 10px;
     margin: 0px;
     overflow: hidden;
 }
@@ -27,4 +27,35 @@ h1 {
 }
 .navbar li{
     float: left;
+}
+
+.box {
+    border: 2px dotted rgb(0, 156, 207);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box > * {
+    flex: 1;
+    text-align: center;
+    background-color: rgb(120, 212, 247 / 0.2);
+    border: 2px solid rgb(0, 156, 207);
+    border-radius: 5px;
+    padding; 10px;
+}
+
+.one {
+    flex: 1;
+}
+
+.two {
+    flex: 1;
+}
+
+.three {
+    flex: 1;
 }
