@@ -1,112 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore my first website!">
     <meta name="keywords" content="HTML, CSS, Portfolio, Web development, Projects, Articles, Contact">
     <meta name="author" content="Ryan S.">
-    <link rel="stylesheet" href="css/style.css"/>
-
     <title>My First HTML Web Page</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 2%;
-            overflow: auto;
-        }
-
-        .box-wrapper {
-            height: 95vh;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }
-                #box1 {
-            padding: 10px;
-            border: solid 1px green
-        }
- 
-        #box2 {
-            padding: 8px;
-            border: solid 1px blue
-        }
- 
-        #box3 {
-            padding: 10px;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: row;
-            border: solid 1px green
-        }
- 
-        #box4 {
-            flex-grow: 2;
-            border: solid 1px orange
-        }
- 
-        .middle-column {
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
- 
-        .middle-column div {
-            flex-grow: 1;
-            margin: 0 8px;
-            border: solid 1px red;
-        }
- 
-        .middle-column div+div {
-            margin-top: 8px
-        }
- 
-        #box8 {
-            flex-grow: 1;
-            border: solid 1px black
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
     <h1>Welcome to my first HTML web page!</h1>
     <p>This is a paragraph of text that will appear on the page.<br> It is a very simple page, but it is a start.<br> I hope you enjoy it!
     </p>
-
-    <div class="box-wrapper">
-        <div id="box1">
-            Box 1
-        </div>
- 
-        <div id="box2">
-            Box 2
-        </div>
- 
-        <div id="box3">
-            <div id="box4">
-                Box 4
-            </div>
-            <div class="middle-column">
-                <div id="box5">
-                    Box 5
-                </div>
-                <div id="box6">
-                    Box 6
-                </div>
-                <div id="box7">
-                    Box 7
-                </div>
-            </div>
-            <div id="box8">
-                Box 8
-            </div>
-        </div>
-    </div>
 
     <p>Here are links to my other pages!</p>
     <nav class="navbar">
